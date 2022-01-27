@@ -7,4 +7,4 @@ In this work, I applied the knowledge of the:
 - CSS z-index property
 
 
-[Position](https://a-zhukovets.github.io/HW_Position/)
+[POSITION](https://a-zhukovets.github.io/HW_Position/)
