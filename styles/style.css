@@ -1,5 +1,7 @@
 .wrapper{
     display: flex;
+    height: 650px;
+    align-items: center;
     justify-content: center;
 }
 
@@ -7,6 +9,7 @@
     position: relative;
     width: 500px;
     height: 500px;
+
 }
 
 .circle_one{
