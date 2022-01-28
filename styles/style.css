@@ -5,117 +5,93 @@
     justify-content: center;
 }
 
-.container{
+.figure{
     position: relative;
     width: 500px;
     height: 500px;
 
 }
 
-.circle_one{
+.figure__circle{
+    position: absolute;
     height: 30%;
     width: 30%;
     background-color: rgba(238, 33, 12);
     border-radius: 50%;
 }
 
-.circle_two{
-    height: 30%;
-    width: 30%;
-    background-color: rgba(238, 33, 12);
-    border-radius: 50%;
-}
-
-.circle_three{
-    height: 30%;
-    width: 30%;
-    background-color: rgba(238, 33, 12);
-    border-radius: 50%;
-}
-
-.circle_four{
-    height: 30%;
-    width: 30%;
-    background-color: rgba(238, 33, 12);
-    border-radius: 50%;
-}
-
-.square_one{
+.figure__squar-huge{
     height: 50%;
     width: 50%;
     background-color: rgba(0, 162, 255);
 }
 
-.square_two{
+.figure__square-tiny{
     height: 25%;
     width: 25%;
     background-color: rgb(247, 186, 0);
     border-radius: 15%;
 }
 
-.circle_one{
-    position: absolute;
+.figure__circle--top-left{
     top: 25%;
     left: 25%;
     transform: translate(-50%, -50%);
 }
 
-.circle_two{
-    position: absolute;
+.figure__circle--top-right{
     bottom: 25%;
     left: 25%;
     transform: translate(-50%, 50%);
 }
 
-.circle_three{
-    position: absolute;
+.figure__circle--bottom-left{
     top: 25%;
     right: 25%;
     transform: translate(50%, -50%);
 }
 
-.circle_four{
-    position: absolute;
+.figure__circle--bottom-right{
     bottom: 25%;
     right: 25%;
     transform: translate(50%, 50%);
 }
 
-.square_one{
+.figure__squar-huge{
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%); 
 }
 
-.square_two{
+.figure__square-tiny{
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
 }
 
-.circle_one:hover{
+.figure__circle--top-left:hover{
     z-index: 1;
     background-color: aqua;
 }
 
-.circle_two:hover{
+.figure__circle--top-right:hover{
     z-index: 1;
     background-color: bisque;
 }
 
-.circle_three:hover{
+.figure__circle--bottom-left:hover{
     z-index: 1;
     background-color: blue;
 }
 
-.circle_four:hover{
+.figure__circle--bottom-right:hover{
     z-index: 1;
     background-color: blueviolet;
 }
 
-.square_one:hover{
+.figure__squar-huge:hover{
     z-index: 1;
     background-color: chartreuse;
 }
